@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'minionproregular';
+    src: url(./fonts/MinionPro-Regular.otf);
+}
+@font-face {
+    font-family: 'minionprobold';
+    src: url(./fonts/Minion\ Pro\ Bold.otf);
+}
+body {
+    margin: 0%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'minionprobold';
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    width: 14.85vw;
+    margin-left: 3.46vw;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5.1vw;
+    width: 70.4vw;
+}
+nav a {
+    font-size: 1vw;
+}
+form {
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    height: 2.3vw;
+    width: 2.3vw;
+    border-radius: 50%;
+    background-color: gray;
+}
+.arrow {
+    height: 0;
+    width: 0;
+    border-top: 0.66vw solid black;
+    border-left: 0.55vw solid transparent;
+    border-right: 0.55vw solid transparent;
+    pointer-events: none;
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 0.85vw;
+}
+select {
+    border: none;
+    outline: none;
+    font-size: 1.35vw;
+    width: 5vw;
+    font-family: 'minionprobold';
+    margin-left: 0.4vw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+option {
+    font-size: 1.35vw;
+    font-family: 'minionprobold';
+}
+/*как сделать что бі иконка менялась при віборе опции?
+как изменить стиль опций селекта при наведении на них?*/
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'minionproregular';
+}
+aside {
+    margin: 1.5vw 0vw 0vw 5vw;
+}
+aside div {
+    white-space: nowrap;
+    position: absolute;
+}
+aside div a {
+    font-size: 1.385vw;
+}
+#rosh::before,
+#rosh::after {
+    content: "";
+    border-left: black solid 1px;
+    height: 1.4vw;
+    transform: skew(-15deg);
+    position: absolute;
+}
+#rosh::before {
+    margin-right: 0.5vw;
+}
+h1 {
+    font-size: 2.3vw;
+    margin-top: 5vw;
+    font-family: 'minionprobold';
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70.46vw;
+    margin: 3.5vw 5vw 5vw 0vw;
+}
+h2 {
+    font-size: 1.385vw;
+    margin-top: 3.7vw;
+    font-family: 'minionprobold';
+}
+p {
+    font-size: 0.9vw;
+    line-height: 2;
+    white-space: nowrap;
+}
+footer {
+    font-size: 1.07vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'minionprobold';
+}
+address {
+    font-style: normal;
+}
+.tel {
+    align-items: flex-end;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+.socset {
+    flex-direction: row;
+    margin-right: 5vw;
+}
+.socset img {
+    width: 2.54vw;
+    margin: 0.2vw;
+}
